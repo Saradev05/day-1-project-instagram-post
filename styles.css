@@ -1,15 +1,15 @@
 body {
     background-color:grey;
     text-align: center;
-    position: relative;
+    /* position: relative; */
     }
 .post {
     background-color: rgb(219, 218, 218);
     display: flex;
     flex-direction: column;
     align-items: stretch;
-    height: 720px;
-    width: 580px;
+    height: 740px;
+    width: 590px;
     position: absolute;
     left: 30%;
     top: 10%;
@@ -29,8 +29,12 @@ body {
 }
 .parte3 {
     display: flex; flex-direction: column ; align-items: stretch;
-    height: 25%;
+    height: 30%;
     width: 100%;
+    text-align: justify;
+    padding-left: 25px;
+    padding-right: 50px;
+    font-size: medium;
 }
 img {
     display: flex;
@@ -40,11 +44,10 @@ img {
 .icon1 {
     display: flex;
     height: 100%;
-    width: 100%;
-    /* top: 30%;/*no funciona */
-    /* left: 30%;no funciona */ 
-    
-
+    padding-top:19px;
+    padding-left:15px;
+    padding-right:15px;
+}
 
 .text { 
     display: flex;
@@ -68,29 +71,28 @@ img {
     position: relative;
     height: fit-content;
     top: 30%;
+    padding-top:7px;
+    padding-left:40px;
 }
 .iconline {
     display: flex; flex-direction: row;
-    font-weight: bold;
+    font-weight:bolder ;
     padding-top: 2%;
-    padding-left: 2%;
+    /* padding-left: %; */
+    font-size: larger;
     }
 .icongroup {
     display: flex; justify-content: flex-start;
-    font-size: large;
-    font-weight: bold;
 }
 .icon3 {
     display: flex; align-self: flex-end;
-    padding-left: 80%;
-    font-weight: bold;
+    padding-left: 78%;
 }
 .text2 {
     display: flex;
-    padding-left: 2%;
 }
 .text3 {
     display: flex;
-    padding-left: 2%;
-    padding-right: 2%;
+    padding-right: 8%;
+
 }
